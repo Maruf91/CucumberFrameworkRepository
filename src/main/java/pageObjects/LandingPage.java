@@ -9,7 +9,7 @@ public class LandingPage {
 	//public String LOGIN_LINK_CLICK="//a[contains(@href,'https://rahulshettyacademy.com/sign_in/')]";
 	public String LOGIN_LINK_CLICK="//a[contains(text(),'Login')]";
 	public String HOME_PAGE_Title="//h2[contains(text(),'Featured Courses')]";
-	public String HOME_BUTTON="//a[contains(text(),'Home1')]";
+	public String HOME_BUTTON="//a[contains(text(),'Home')]";
 	
 	By signin=By.xpath(LOGIN_LINK_CLICK);
 	By Homepage_Title=By.xpath(HOME_PAGE_Title);
